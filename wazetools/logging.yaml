@@ -1,0 +1,26 @@
+version: 1
+formatters:
+  simpleFormater:
+    format: '[%(levelname)s] %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simpleFormater
+    stream: ext://sys.stdout
+  file:
+    level: INFO
+    class : logging.FileHandler
+    formatter: simpleFormater
+    filename: example.log
+
+loggers:
+  clogger:
+    handlers: [console]
+  flogger:
+    handlers: [file]
+
+root:
+  level: DEBUG
+  handlers: [console, file]

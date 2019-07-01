@@ -29,11 +29,6 @@ and connect to it at
 `localhost:8080`
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 49d4a172298a2f2a94195714356ad7f74f27dbb4
 Project Organization
 ------------
 
@@ -51,18 +46,11 @@ Project Organization
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a 
-<<<<<<< HEAD
-                              tag describing its use, accepted tags: [dev], [example], [analysis]
-                              number (for ordering) if needed,
-    │                         the creator's name,  and a short `-` delimited description, e.g.
-    │                         `[analysis] 1.0-joaoc-initial-data-exploration`.
-=======
     │                         tag describing its use, accepted tags: [dev], [example], [analysis];
     │                         number (for ordering) if needed;
     │                         the creator's name, not needed for examples;  
     │                         short `-` delimited description.
     │                         `[analysis] c1.0-joaoc-initial-data-exploration`.
->>>>>>> 49d4a172298a2f2a94195714356ad7f74f27dbb4
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -98,3 +86,9 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+Acknowledgements
+------------
+
+Repo based on previou work of @JoaoCarabetta
